@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyRTDBJavaApplication</string>
+    <string name="et_user">Enter user here.</string>
+    <string name="et_message">Enter message here.</string>
+    <string name="btn_save">Save message</string>
+    <string name="btn_show">Show</string>
+</resources>

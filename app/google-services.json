@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "489281038163",
+    "firebase_url": "https://fir-rtdbwithauth-5f266.firebaseio.com",
+    "project_id": "fir-rtdbwithauth-5f266",
+    "storage_bucket": "fir-rtdbwithauth-5f266.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489281038163:android:66116750c79cc546",
+        "android_client_info": {
+          "package_name": "com.rattapon.firebasertdbwithauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489281038163-a9v18c9948qjhd6rj7gt1kmm38g8rkod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rattapon.firebasertdbwithauth",
+            "certificate_hash": "06b91aec7874601dfd1251425e6482a6d19bde35"
+          }
+        },
+        {
+          "client_id": "489281038163-sqbfl8of54equ2s50d1e5kif2ctb60d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-CsO7eEB8aNH6EePDuO8OfpSamkNGio8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489281038163-sqbfl8of54equ2s50d1e5kif2ctb60d0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
