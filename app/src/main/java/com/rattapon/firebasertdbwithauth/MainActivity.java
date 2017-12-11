@@ -1,6 +1,7 @@
 package com.rattapon.firebasertdbwithauth;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -96,6 +97,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     public void onComplete(@NonNull Task<Void> task) {
                         Toast.makeText(MainActivity.this, "Sign Out complete", Toast.LENGTH_SHORT).show();
                         TextView textView = (TextView) btnSignIn.getChildAt(0);
+                        textView.setTextColor(Color.GRAY);
                         textView.setText("Sign In");
                     }
                 });
@@ -114,6 +116,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 GoogleSignInAccount account = task.getResult(ApiException.class);
                 firebaseAuthWithGoogle(account);
                 TextView textView = (TextView) btnSignIn.getChildAt(0);
+                textView.setTextColor(Color.RED);
                 textView.setText("Sign Out");
             } catch (ApiException e) {
                 // Google Sign In failed, update UI appropriately
