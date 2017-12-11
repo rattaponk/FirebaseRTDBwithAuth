@@ -67,6 +67,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mGoogleSignInClient = GoogleSignIn.getClient(MainActivity.this, gso);
 
         mAuth = FirebaseAuth.getInstance();
+
+        FirebaseUser user = mAuth.getCurrentUser();
+        if(user != null) {
+            TextView textView = (TextView) btnSignIn.getChildAt(0);
+            textView.setTextColor(Color.RED);
+            textView.setText("Sign Out");
+        }
     }
 
     private void InitInstance() {
